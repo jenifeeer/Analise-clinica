@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - VidaLab</title>
+    <link rel="shortcut icon" href="img_favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+     <!-- =========================================================
+         CABEÇALHO E MENU PRINCIPAL
+         ========================================================= -->
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="index.html">
+                <span class="marca-icone">✚</span>
+                <span><strong>VidaLab</strong><small>Análises Clínicas</small></span>
+            </a>
+            <nav class="menu-navegacao">
+                <a class="ativo" href="index.html">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="produto.html">Exames</a>
+                <a href="#unidades">Unidades</a>
+                <a href="#contato">contato</a>
+                <a class="botao-resultados" href="https://SEU-LINK-DE-RESULTADOS.com.br" target="_blank" rel="noopener">Resultados Online</a>
+                <a href="login.html">Login</a>
+                <a class="botao-nav" href="new.html">Cadastre-se</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="fundo-formulario">
+        <section class="formulario formulario-cadastro">
+            <div class="form-icone">＋</div>
+            <span class="etiqueta">FAÇA SEU CADASTRO</span>
+            <h1>Crie sua conta</h1>
+            <p class="form-descricao">Preencha os campos abaixo para conhecer a área do paciente.</p>
+            <form action="#" method="post">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento" name="nascimento">
+                <label for="senha">Crie uma senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+                <button class="botao botao-largo" type="submit">Criar cadastro</button>
+            </form>
+            <p class="form-rodape">Já possui cadastro? <a href="login.html">Fazer login</a></p>
+           </section>
+    </main>
+
+    <!-- =========================================================
+         RODAPÉ
+         ========================================================= -->
+    <footer class="rodape" id="contato">
+        <div class="container rodape-grid">
+            <div>
+                <a class="marca marca-rodape" href="index.html">
+                    <span class="marca-icone">✚</span>
+                    <span><strong>VidaLab</strong><small>Análises Clínicas</small></span>
+                </a>
+                <p class="rodape-desc">Excelência em medicina diagnóstica com acolhimento, agilidade e precisão nos resultados.</p>
+            </div>
+            <div>
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#sobre">Sobre o Laboratório</a></li>
+                    <li><a href="produto.html">Lista de Exames</a></li>
+                    <li><a href="#unidades">Nossas Unidades</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Atendimento</h4>
+                <ul>
+                    <li>📞 (61) 3333-4444</li>
+                    <li>💬 (61) 99999-9999</li>
+                    <li>✉️ contato@vidalab.com.br</li>
+                    <li>Resp. Técnico: Dr. Nome Exemplo - CRF 0000</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rodape-base">
+            <p>&copy; 2026 VidaLab Análises Clínicas. Todos os direitos reservados.  </p>
+            feito por <span>Jenifer</span>
+        </div>
+    </footer>
+    </body>
+</html>
